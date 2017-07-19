@@ -1,0 +1,12 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+// .about{
+// 	display: flex;
+	.deg{
+		width:100px;
+		height: 100px;
+		background:red;
+		@include border-top-radius(10px)
+	}
+// }
